@@ -1,7 +1,7 @@
 # 🌟 CAMINOS DE SABIDURÍA - VERSIÓN BETA
 ### Proyecto educativo SIN FINES DE LUCRO para niños venezolanos
 
-![Logo Caminos de Sabiduría](https://via.placeholder.com/800x400/1e3a8a/f59e0b?text=CAMINOS+DE+SABIDUR%C3%8DA)
+![Logo Caminos de Sabiduría](https://i.imgur.com/placeholder-caminos.png)
 
 🧪 **ESTA ES UNA VERSIÓN BETA**  
 ✅ Desarrollo en fase de prueba con 50 padres de Caracas  
