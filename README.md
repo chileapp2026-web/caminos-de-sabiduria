@@ -1,26 +1,30 @@
-# 🌟 CAMINOS DE SABIDURÍA
-### La aplicación educativa más segura para niños venezolanos
+# 🌟 CAMINOS DE SABIDURÍA - VERSIÓN BETA
+### Proyecto educativo SIN FINES DE LUCRO para niños venezolanos
 
 ![Logo Caminos de Sabiduría](https://via.placeholder.com/800x400/1e3a8a/f59e0b?text=CAMINOS+DE+SABIDURÍA)
 
-🚀 **Próximamente - Lanzamiento Oficial: Febrero 2026**  
-📱 **Para niños de 6 a 12 años**  
-🔒 **100% Protegida con controles parentales COPPA-compliant**  
-📚 **Aprende matemáticas, lenguaje, ciencias y valores venezolanos**
+🧪 **ESTA ES UNA VERSIÓN BETA**  
+✅ Desarrollo en fase de prueba con 50 padres de Caracas  
+✅ Sin monetización ni recolección de datos personales  
+✅ Cumplimiento parcial COPPA (migración a completo en enero 2026)  
+✅ Controles parentales básicos implementados  
 
 ---
 
-## **🛡️ COMPROMISO DE SEGURIDAD**
-- ✅ **Controles parentales obligatorios** para todas las configuraciones
-- ✅ **Sin recolección de datos personales** sin consentimiento verificado
-- ✅ **Contenido 100% moderado** por educadores venezolanos
-- ✅ **Cumplimiento COPPA/GDPR-K** para protección internacional
+## **🎯 PROPÓSITO DEL PROYECTO**
+"Caminos de Sabiduría" nace en Caracas, Venezuela, con el propósito de ofrecer una **experiencia educativa segura y entretenida** para niños de 6 a 12 años. Este es un **proyecto SIN FINES DE LUCRO** en fase de prueba técnica.
 
-## **📅 CRONOGRAMA DE LANZAMIENTO**
-- **Enero 2026**: Registro de marca y dominios
-- **Febrero 2026**: Versión beta para padres en Caracas
-- **Marzo 2026**: Lanzamiento nacional en Venezuela
-- **Abril 2026**: Expansión a LATAM
+## **🛡️ PROTECCIÓN INFANTIL (Fase Beta)**
+- ✅ **Sin recolección de datos personales** identificables
+- ✅ **Sin publicidad de terceros** ni compras dentro de la app
+- ✅ **Controles parentales básicos** obligatorios para configuración
+- ⚠️ **En desarrollo:** Sistema de verificación parental por WhatsApp OTP
+
+## **📅 CRONOGRAMA DE DESARROLLO**
+- **Diciembre 2025:** Fase beta técnica (este repositorio)
+- **Enero 2026:** Registro legal en SAPI Venezuela + configuración 2FA completa
+- **Febrero 2026:** Pruebas con 50 familias en Caracas
+- **Marzo 2026:** Lanzamiento nacional (sujeto a aprobación legal)
 
 ---
 
@@ -29,7 +33,17 @@
 Chile Enrique Castillo Urdaneta  
 📍 Caracas, Venezuela  
 📧 chileapp2026-web@github.com  
-📱 WhatsApp: [+58 tu número]  
 
-**© 2025 - Todos los derechos reservados**  
+**⚠️ ADVERTENCIA:**  
+Esta cuenta es exclusivamente para el proyecto educativo. No se aceptan solicitudes comerciales, donaciones ni colaboraciones con fines de lucro.
+
+---
+
+## **📜 DOCUMENTACIÓN LEGAL**
+- [x] **Acta de Seguridad Beta** (18/12/2025)
+- [x] **Plan de Migración a 2FA Completo** (enero 2026)
+- [ ] **Registro de Marca en SAPI** (7 de enero 2026)
+- [ ] **Certificación COPPA Completa** (febrero 2026)
+
+**© 2025 Chile Enrique Castillo Urdaneta - Todos los derechos reservados**  
 *Documento de propiedad intelectual fechado el 17 de diciembre de 2025*
