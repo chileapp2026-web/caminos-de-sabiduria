@@ -1,7 +1,7 @@
 # 🌟 CAMINOS DE SABIDURÍA - VERSIÓN BETA
 ### Proyecto educativo SIN FINES DE LUCRO para niños venezolanos
 
-![Logo Caminos de Sabiduría](https://via.placeholder.com/800x400/1e3a8a/f59e0b?text=CAMINOS+DE+SABIDURÍA)
+![Logo Caminos de Sabiduría](https://via.placeholder.com/800x400/1e3a8a/f59e0b?text=CAMINOS+DE+SABIDUR%C3%8DA)
 
 🧪 **ESTA ES UNA VERSIÓN BETA**  
 ✅ Desarrollo en fase de prueba con 50 padres de Caracas  
@@ -32,7 +32,7 @@
 **Desarrollador Principal:**  
 Chile Enrique Castillo Urdaneta  
 📍 Caracas, Venezuela  
-📧 chileapp2026-web@github.com  
+📧 caminosdesabiduria.beta@gmail.com  
 
 **⚠️ ADVERTENCIA:**  
 Esta cuenta es exclusivamente para el proyecto educativo. No se aceptan solicitudes comerciales, donaciones ni colaboraciones con fines de lucro.
@@ -46,4 +46,4 @@ Esta cuenta es exclusivamente para el proyecto educativo. No se aceptan solicitu
 - [ ] **Certificación COPPA Completa** (febrero 2026)
 
 **© 2025 Chile Enrique Castillo Urdaneta - Todos los derechos reservados**  
-*Documento de propiedad intelectual fechado el 17 de diciembre de 2025*
+*Documento de propiedad intelectual actualizado el 19 de diciembre de 2025*
