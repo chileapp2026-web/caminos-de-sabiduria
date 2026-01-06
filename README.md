@@ -35,6 +35,13 @@ Equipo de desarrollo: chileapp2026-web
 **Desarrollador principal**: Chile Enrique Castillo Urdaneta  
 **Organización**: Caminos de Sabiduría  
 **Soporte técnico**: caminosdesabiduria.beta@gmail.com
+---
+
+## Sobre este proyecto
+
+---  
+**Caminos de Sabiduría: Aprende Jugando** es un proyecto educativo sin fines de lucro, dedicado a la protección, el aprendizaje seguro y el empoderamiento de niñas, niños y adolescentes en Venezuela y América Latina.
+
 ## Referencias
 
 Esta sección recoge las fuentes académicas, técnicas y normativas que respaldan el diseño, desarrollo y cumplimiento del proyecto **Caminos de Sabiduría: Aprende Jugando**. Las citas están presentadas en formato APA (7.ª edición) adaptado a uso técnico y con enlaces directos a las fuentes.
