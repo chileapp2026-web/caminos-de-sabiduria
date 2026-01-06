@@ -1,4 +1,8 @@
+![Beta](https://img.shields.io/badge/Estado-Beta-yellow)
+
 # Caminos de Sabiduría: Aprende Jugando
+
+Versión: v0.1.0-beta
 
 Aplicación educativa móvil segura para niñas, niños y adolescentes en Venezuela y América Latina.
 
@@ -27,6 +31,7 @@ Seguridad y privacidad
 - OTP via WhatsApp enviado desde Cloud Functions con env vars seguras.
 - No almacenar PII en texto plano; usar hashing y retención automática.
 - Panel parental en modo oscuro; autenticación con 2FA y validación híbrida (OTP + cédula venezolana con hash).
+- Política completa: [Política de Privacidad](docs/PRIVACIDAD.md)
 
 Contacto
 Equipo de desarrollo: chileapp2026-web
