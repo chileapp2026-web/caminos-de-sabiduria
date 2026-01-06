@@ -30,7 +30,11 @@ Seguridad y privacidad
 
 Contacto
 Equipo de desarrollo: chileapp2026-web
+## Contacto
 
+**Desarrollador principal**: Chile Enrique Castillo Urdaneta  
+**Organización**: Caminos de Sabiduría  
+**Soporte técnico**: caminosdesabiduria.beta@gmail.com
 ## Referencias
 
 Esta sección recoge las fuentes académicas, técnicas y normativas que respaldan el diseño, desarrollo y cumplimiento del proyecto **Caminos de Sabiduría: Aprende Jugando**. Las citas están presentadas en formato APA (7.ª edición) adaptado a uso técnico y con enlaces directos a las fuentes.
