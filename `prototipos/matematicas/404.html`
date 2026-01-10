@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="refresh" content="0; url=/caminos-de-sabiduria/prototipos/matematicas/index.html" />
+</head>
+<body>
+  <p>Redireccionando al prototipo de matemáticas...</p>
+  <script>
+    // Redirección de respaldo en JavaScript
+    setTimeout(function() {
+      window.location.href = '/caminos-de-sabiduria/prototipos/matematicas/index.html';
+    }, 1000);
+  </script>
+</body>
+</html>

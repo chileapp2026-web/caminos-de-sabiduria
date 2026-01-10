@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caminos de Sabiduría - Matemáticas Seguras</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial Rounded MT Bold', 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            background: rgba(245, 158, 11, 0.92);
+            border-radius: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            padding: 30px;
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+            border: 3px solid #1e3a8a;
+        }
+        .logo {
+            font-size: 28px;
+            font-weight: 800;
+            color: #1e3a8a;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            margin-bottom: 15px;
+            letter-spacing: -0.5px;
+        }
+        .subtitle {
+            color: #0f172a;
+            font-size: 18px;
+            margin-bottom: 25px;
+            font-weight: 600;
+        }
+        .equation {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+            font-size: 32px;
+            font-weight: bold;
+            color: #1e3a8a;
+            min-height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .options {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin: 25px 0;
+        }
+        .btn {
+            background: #1e3a8a;
+            color: white;
+            border: none;
+            border-radius: 12px;
+            padding: 15px;
+            font-size: 22px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+        }
+        .btn:active {
+            transform: translateY(1px);
+        }
+        .correct {
+            background: #10b981 !important;
+            animation: pulse 0.5s;
+        }
+        .incorrect {
+            background: #ef4444 !important;
+            animation: shake 0.5s;
+        }
+        .result {
+            font-size: 24px;
+            font-weight: bold;
+            min-height: 30px;
+            margin: 20px 0;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .success {
+            color: #065f46;
+            background: #dcfce7;
+        }
+        .error {
+            color: #b91c1c;
+            background: #fee2e2;
+        }
+        .footer {
+            margin-top: 25px;
+            font-size: 14px;
+            color: #0f172a;
+            font-weight: 600;
+        }
+        .security-badge {
+            background: #1e3a8a;
+            color: white;
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-5px); }
+            75% { transform: translateX(5px); }
+        }
+        
+        @media (max-width: 480px) {
+            .options {
+                grid-template-columns: 1fr;
+            }
+            .equation {
+                font-size: 28px;
+            }
+            .btn {
+                font-size: 20px;
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">Caminos de Sabiduría</div>
+        <div class="subtitle">¡Resuelve esta operación matemática!</div>
+        
+        <div class="equation" id="equation">5 + 3 = ?</div>
+        
+        <div class="options">
+            <button class="btn" onclick="verificar(8)">8</button>
+            <button class="btn" onclick="verificar(7)">7</button>
+            <button class="btn" onclick="verificar(9)">9</button>
+            <button class="btn" onclick="verificar(10)">10</button>
+        </div>
+        
+        <div class="result" id="resultado"></div>
+        
+        <div class="security-badge">
+            🔒 Versión BETA - Seguridad COPPA Activada
+        </div>
+        
+        <div class="footer">
+            Proyecto educativo SIN FINES DE LUCRO • Caracas, Venezuela
+        </div>
+    </div>
+
+    <script>
+        function verificar(respuesta) {
+            const resultado = document.getElementById("resultado");
+            const botones = document.querySelectorAll(".btn");
+            
+            // Desactivar todos los botones temporalmente
+            botones.forEach(btn => {
+                btn.disabled = true;
+                setTimeout(() => {
+                    btn.disabled = false;
+                }, 1500);
+            });
+            
+            // Limpiar clases anteriores
+            resultado.className = "result";
+            botones.forEach(btn => {
+                btn.classList.remove("correct", "incorrect");
+            });
+            
+            if (respuesta === 8) {
+                resultado.innerHTML = "¡CORRECTO! 🌟";
+                resultado.classList.add("success");
+                document.querySelector('.btn:nth-child(1)').classList.add("correct");
+                // Sonido de éxito (opcional)
+                if (typeof window.AudioContext !== 'undefined') {
+                    const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+                    const oscillator = audioCtx.createOscillator();
+                    oscillator.type = 'sine';
+                    oscillator.frequency.setValueAtTime(800, audioCtx.currentTime);
+                    oscillator.connect(audioCtx.destination);
+                    oscillator.start();
+                    setTimeout(() => oscillator.stop(), 300);
+                }
+            } else {
+                resultado.innerHTML = "¡INTÉNTALO DE NUEVO! 💪";
+                resultado.classList.add("error");
+                
+                // Encontrar el botón correcto y el seleccionado
+                const btnCorrecto = document.querySelector('.btn:nth-child(1)');
+                const btnSeleccionado = Array.from(botones).find(btn => 
+                    btn.innerHTML == respuesta
+                );
+                
+                btnCorrecto.classList.add("correct");
+                if (btnSeleccionado) btnSeleccionado.classList.add("incorrect");
+            }
+        }
+    </script>
+</body>
+</html>
